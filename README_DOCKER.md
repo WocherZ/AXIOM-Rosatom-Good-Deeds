@@ -13,6 +13,7 @@
 
 - Docker
 - Docker Compose
+- OpenRouter Api Key
 
 ## Запуск проекта
 
@@ -20,6 +21,8 @@
 ```bash
 cd <repository-name>
 ```
+
+В файл backend/.env подложите свой API ключ от Openrouter (можно получить бесплатно по [ссылке](https://openrouter.ai/settings/keys) после авторизации)
 
 2. Запустите все сервисы:
 ```bash
